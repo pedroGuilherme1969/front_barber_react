@@ -11,6 +11,7 @@ import Appointment from './pages/Appointment'
 import Navbar from './components/Navbar'
 import Services from './pages/Services'
 import Footer from './components/Footer'
+import Register from './pages/Register'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path='/barbeiros' element={<Barber />}/>
         <Route path='/barbeiros/:speciality' element={<Barber />}/>
         <Route path='/login' element={<Login />}/>
+        <Route path='/registrar' element={<Register />} />
         <Route path='/sobre' element={<About />}/>
         <Route path='/meu-perfil' element={<MyProfile />}/>
         <Route path='/servicos' element={<Services />}/>
