@@ -2,8 +2,6 @@
 import React from 'react'
 import HomePage from '../components/HomePage'
 import ServicosMenu from '../components/ServicosMenu'
-import Header from '../components/Header'
-import Navbar from '../components/Navbar'
 import TopBarbers from '../components/TopBarbers'
 import Banner from '../components/Banner'
 
